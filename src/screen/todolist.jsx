@@ -86,7 +86,7 @@ class mainToDoList extends React.Component {
     toDoList: [],
   };
   getToDo = () => {
-    Axios.get(`${API_URL}toDos`)
+    Axios.get(`${API_URL}/toDos`)
       .then((res) => {
         console.log(res);
         this.setState({ toDoList: res.data });
