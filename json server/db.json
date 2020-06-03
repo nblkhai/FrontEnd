@@ -1,17 +1,111 @@
-{"toDos":[{
-"id":1,
-"todoName":"Tidur",
-"status":"pending"
-}],
-  "mainToDos":[{
-    "status": "pending",
-    "id":1,
-    "totalToDo":1
-  }],
-  "subToDos":[{
-    "mainToDoId":1,
-    "todoItemid":1,
-    "status": "pending",
-    "todoName":"Tidur Siang"
-  }],
-"todoList":[]}
+{
+  "mainTodos": [
+    {
+      "mainTodoName": "cloth",
+      "status": "done",
+      "id": 2
+    },
+    {
+      "mainTodoName": "car",
+      "status": "ongoing",
+      "id": 3
+    },
+    {
+      "mainTodoName": "rumah",
+      "id": 4,
+      "status": "done"
+    },
+    {
+      "mainTodoName": "Villa",
+      "id": 6,
+      "status": "done"
+    },
+    {
+      "mainTodoName": "lili",
+      "id": 8,
+      "status": "done"
+    },
+    {
+      "mainTodoName": "durian",
+      "status": "done",
+      "id": 11
+    },
+    {
+      "mainTodoName": "tidur",
+      "status": "done",
+      "id": 12
+    }
+  ],
+  "subTodos": [
+    {
+      "mainId": 1,
+      "subTodoName": "pizza",
+      "status": "ongoing",
+      "id": 1
+    },
+    {
+      "mainId": 2,
+      "subTodoName": "h&m",
+      "status": "done",
+      "id": 2
+    },
+    {
+      "mainId": 2,
+      "subTodoName": "uniqlo",
+      "status": "done",
+      "id": 3
+    },
+    {
+      "subTodoName": "avanza",
+      "status": "ongoing",
+      "id": 4
+    },
+    {
+      "subTodoName": "minimalist",
+      "id": 5,
+      "status": "done"
+    },
+    {
+      "mainId": 6,
+      "subTodoName": "puncak",
+      "id": 6,
+      "status": "done"
+    },
+    {
+      "mainId": 8,
+      "subTodoName": "zaza",
+      "id": 10,
+      "status": "done"
+    },
+    {
+      "mainId": 12,
+      "subTodoName": "siang",
+      "id": 14,
+      "status": "done"
+    },
+    {
+      "mainId": 12,
+      "subTodoName": "malam",
+      "id": 15,
+      "status": "done"
+    },
+    {
+      "mainId": 12,
+      "status": "ongoing",
+      "subTodoName": "pagi",
+      "id": 16
+    },
+    {
+      "mainId": 12,
+      "status": "done",
+      "subTodoName": "sebentar",
+      "id": 17
+    },
+    {
+      "mainId": 11,
+      "status": "done",
+      "subTodoName": "monthonk",
+      "id": 18
+    }
+  ]
+}
